@@ -1,2 +1,11 @@
+/* line 1, scss/home.scss */
+html {
+  margin: 0;
+  padding: 0; }
 
-/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJob21lLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiIl0sImZpbGUiOiJob21lLmNzcyJ9 */
+/* line 6, scss/home.scss */
+.hero-section {
+  max-height: 718px;
+  background-color: #1b232b; }
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaG9tZS5jc3MiLCJzb3VyY2VzIjpbImhvbWUuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyJodG1sIHtcclxuICAgIG1hcmdpbjogMDtcclxuICAgIHBhZGRpbmc6IDA7XHJcbiAgfVxyXG4gIFxyXG4uaGVyby1zZWN0aW9uIHtcclxuICAgIG1heC1oZWlnaHQ6IDcxOHB4O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogIzFiMjMyYjtcclxufSJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsQUFBQSxJQUFJLENBQUM7RUFDRCxNQUFNLEVBQUUsQ0FBQztFQUNULE9BQU8sRUFBRSxDQUFDLEdBQ1g7OztBQUVILEFBQUEsYUFBYSxDQUFDO0VBQ1YsVUFBVSxFQUFFLEtBQUs7RUFDakIsZ0JBQWdCLEVBQUUsT0FBTyxHQUM1QiJ9 */
