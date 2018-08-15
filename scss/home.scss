@@ -4,6 +4,12 @@ html {
   }
   
 .hero-section {
-    max-height: 718px;
+    min-height: 718px;
+    width: 100%;
     background-color: #1b232b;
+    
+}
+.wrap {
+    min-width: 985px;
+    margin: 0 auto;
 }
