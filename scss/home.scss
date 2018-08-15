@@ -1,3 +1,49 @@
+// Position
+// ---------------------------
+.rel {
+    position: relative;
+  }
+  
+  .abs {
+    position: absolute;
+  }
+  
+  .fixed {
+    position: fixed;
+  }
+  
+  // Float
+  // ---------------------------
+  .pull-left {
+    float: left;
+  }
+  
+  .pull-right {
+    float: right;
+  }
+  
+  .cf {
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+  
+  // Display Values
+  // -------------------------
+  
+  .inline {
+    display: inline;
+  }
+  
+  .block {
+    display: block;
+  }
+  
+  .inline-block {
+    display: inline-block;
+  }
 html {
     margin: 0;
     padding: 0;
@@ -6,10 +52,31 @@ html {
 .hero-section {
     min-height: 718px;
     width: 100%;
-    background-color: #1b232b;
+    background: url("../../img/background.png") no-repeat center center;
+    background-size: cover;
+    
     
 }
 .wrap {
-    min-width: 985px;
+    width: 985px;
     margin: 0 auto;
+    padding-top: 72px;
+    
+}
+#currency{
+    border-radius: 5px;
+    background-color: #1d2836;
+    opacity: .7;
+    
+}
+.h2-text {
+    padding-left: 120px;
+    color: white;
+    
+}
+#btn1 {
+    padding: 25px 50px;
+}
+#dropdown1 {
+    min-width: 275px;
 }
