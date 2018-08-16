@@ -44,9 +44,14 @@
   .inline-block {
     display: inline-block;
   }
+  //-----------------------------------------
+  * {
+    box-sizing: border-box;
+}
 html {
     margin: 0;
     padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
 .hero-section {
@@ -58,24 +63,36 @@ html {
     
 }
 .wrap {
-    width: 985px;
+    max-width: 985px;
     margin: 0 auto;
     padding-top: 72px;
-    
+   
 }
-#currency{
+.currency{
     border-radius: 5px;
     background-color: #1d2836;
-    opacity: .7;
+    border: 1px solid rgb(77, 105, 182);
     
 }
 .h2-text {
-    padding-left: 120px;
+    width: 60%;
+    text-align: center;
     color: white;
-    
+    padding-top: 20px;
+}
+.dropdown {
+  width: 40%;
+}
+@media (max-width: 768px){
+  .dropdown {
+    width: 100%;
+    display: block;
+  }
+  
 }
 #btn1 {
     padding: 25px 50px;
+    
 }
 #dropdown1 {
     min-width: 275px;
