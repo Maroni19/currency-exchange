@@ -19,12 +19,13 @@ var paths = {
     html: './**/*.html'
 };
 
-gulp.task('clean', function (){
+gulp.task('clean', function () {
     del.sync([
-        paths.jsdir, paths.cssdir
-    ])
+        paths.jsdir,
+        paths.cssdir
+    ]);
 });
-    
+
 gulp.task('sass:dev', function () {
     return gulp.src(paths.scss)
         .pipe(sourcemaps.init())
